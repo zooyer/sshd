@@ -1,0 +1,16 @@
+addr: ":22"
+
+key: "./conf/rsa.key"
+
+banner: "\nWelcome to sshd.\n"
+
+shell: "/bin/sh"
+
+log:
+  enable: true
+  color: true
+  level: "TRACE"
+  output: "stdout"
+
+user:
+  zzy: "3338363134333731372e9a9e2646253038d51c891ecbefb7fba942adc2"
